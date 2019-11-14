@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/AleoRegular.woff2") format("woff2"),
+    url("../fonts/AleoRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/AleoBold.woff2") format("woff2"),
+    url("../fonts/AleoBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aleo";
+  src: url("../fonts/AleoLight.woff2") format("woff2"),
+    url("../fonts/AleoLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Aleo", serif, "Arial", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: $cl-white;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  width: 1100px;
+}
